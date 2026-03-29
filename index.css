@@ -22,46 +22,28 @@ footer{
     padding-top: 10vh;
 }
 
-.grid-container-profile-left-aligned {
-    display: inline-grid;
-    grid-template-columns: 250px 500px;
-  }
-.grid-container-profile-right-aligned {
-    display: inline-grid;
-    grid-template-columns: 500px 250px;
-  }
-
-.grid-item-profile-pic {
-    display: block;
-    width: 256px;
-    height: 244px;
-    justify-content: center;
-    color: #ffffff;
-    font-size: large;
-    text-align: center;
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #5500a9;
+  border-radius: 25px;
+  text-align: center;
 }
 
-.grid-item-profile-text {
-    display: grid;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    color: #ffffff;
-    text-wrap: wrap;
- }
-
-.form-box{
-    position: relative;
-    width: 400px;
-    height: 400px;
-    background: transparent;
-    border: 4px solid rgba(255,255,255,0.5);
-    border-radius: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul li a {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
 }
+
+ul li a:hover {
+  background-color: #7100e2;
+}
+
 h2{
     font-size: 2em;
     color: #ffffff;
@@ -77,68 +59,3 @@ h4{
     color: #ffffff;
     text-align: bottom;
 }
-.inputbox{
-    position: relative;
-    margin: 30px 0;
-    width: 310px;
-    border-bottom: 2px solid #ffffff;
-}
-
-.inputbox label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    color: #ffffff;
-    font-size: 1em;
-    pointer-events: none;
-}
-input:focus ~ label,
-input:valid ~ label{
-    top: -5px;
-}
-.inputbox input {
-    width: 100%;
-    height: 50px;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    padding: 0 35px 0 5px;
-    color: #ffffff;
-}
-.inputbox ion-icon{
-    position: absolute;
-    right: 8px;
-    color: #ffffff;
-    font-size: 1.2em;
-    top: 20px;
-}
-button{
-    width: 100%;
-    height: 40px;
-    border-radius: 40px;
-    background: #e39bff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: 600;
-}
-
-a:link, a:visited {
-    background-color: #E39BFF;
-    color: black;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 12px;
-    margin-top: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  
-  a:hover, a:active {
-    background-color: #E39BFF;
-  }
