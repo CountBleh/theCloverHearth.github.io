@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavern of Self-Care</title>
+    <!--<link rel="icon" href="ramsey_head.png"-->
+    <meta name="description" content="The official Clover Hearth website!">
+    <meta property="og:title" content="Cavern of Self-Care">
+    <meta property="og:description" content="A quest provided by Professor Whiskersworth">
+    <!-- <meta property="og:image" content="https://www.shiningkittengames.com/ramsey_head.png"> -->
+    <meta property="og:url" content="www.thecloverhearth.org/cavern-of-self-care"> >
+</head>
+<body>
+    <body>
+        <section>
+            <div class="form-value">
+                <form action="">
+                    <iframe frameborder="0" src="https://itch.io/embed/4446570" width="552" height="167"><a href="https://countbleh.itch.io/kotlin-the-dragon-chapter-i">Kotlin the Dragon - Chapter I by CountBleh</a></iframe>
+                </form>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    <footer>
+        <h3 style="padding-bottom: 1vh;">© Copyright 2026 The Clover Hearth. All rights reserved.</h3>
+    </footer>
+</body>
+</html>
